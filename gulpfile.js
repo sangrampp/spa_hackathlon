@@ -21,4 +21,4 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['sass', 'serve']);
