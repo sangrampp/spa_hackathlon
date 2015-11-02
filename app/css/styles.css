@@ -1,15 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 .navbar-default {
   background-color: #fff;
-  border-color: #fff; }
+  border-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-transform: uppercase; }
 
-.brand-img-container {
+.cnt-nav {
+  border-bottom: 2px solid #aaa; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+  padding-top: 3vh; }
+
+.navbar-brand {
+  display: inline-block;
   background: url("../images/logo.png");
   height: 10vh;
+  width: 10%;
   background-size: contain;
-  background-repeat: no-repeat; }
-
-.main-nav {
-  border-top: 2px solid #000; }
-
-.navbar-nav .top-links {
-  padding-top: 5vh; }
+  background-repeat: no-repeat;
+  padding-right: 20%; }

@@ -1,19 +1,29 @@
 .navbar-default{
 	background-color: $bg-color;
-	border-color: $bg-color;
+	border-color: $bg-color;	
+	font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 0;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.brand-img-container{
+.cnt-nav{
+	border-bottom: 2px solid #aaa;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: $font-color;
+	padding-top: 3vh;
+}
+
+.navbar-brand{
+	display: inline-block;
 	background: url('../images/logo.png');
 	height: 10vh;
+	width: 10%;
 	background-size: contain;
 	background-repeat: no-repeat;
+	padding-right: 20%;	
 }
 
-.main-nav{
-	border-top: 2px solid #000;
-}
-
-.top-links{
-	padding-top: 5vh;
-}
