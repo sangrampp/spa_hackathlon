@@ -1,0 +1,14 @@
+{
+  "name": "single_page_static_web",
+  "version": "1.0.0",
+  "description": "SPA Hackathlon",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sangram Powar",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
