@@ -1,0 +1,19 @@
+.navbar-default{
+	background-color: $bg-color;
+	border-color: $bg-color;
+}
+
+.brand-img-container{
+	background: url('../images/logo.png');
+	height: 10vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.main-nav{
+	border-top: 2px solid #000;
+}
+
+.top-links{
+	padding-top: 5vh;
+}

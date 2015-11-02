@@ -1,0 +1,15 @@
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff; }
+
+.brand-img-container {
+  background: url("../images/logo.png");
+  height: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.main-nav {
+  border-top: 2px solid #000; }
+
+.navbar-nav .top-links {
+  padding-top: 5vh; }
