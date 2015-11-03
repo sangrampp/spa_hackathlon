@@ -94,6 +94,9 @@
   #hotel .left-col {
     padding-left: 15px;
     padding-right: 5px; }
+    #hotel .left-col ul {
+      padding: 0;
+      font-weight: 600; }
   #hotel .right-col {
     min-width: 60%;
     height: 75vh;
@@ -136,4 +139,118 @@
     color: #eff;
     border-radius: 0; }
   #hotel .item .info-box {
+    padding-top: 60vh; }
+
+#accomodations {
+  padding-top: 12vh;
+  width: 100%;
+  position: relative; }
+  #accomodations .content {
+    padding-bottom: 5vh; }
+    #accomodations .content h2 {
+      color: #f00;
+      text-transform: uppercase;
+      text-align: left;
+      background-image: linear-gradient(to right, rgba(255, 228, 225, 0.5), rgba(255, 228, 225, 0));
+      border-radius: 5px;
+      padding-left: 15px; }
+  #accomodations .cnt {
+    margin: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 3px #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px 0 5px 0;
+    background-color: #eff; }
+  #accomodations .holder {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 228, 225, 0.5);
+    margin: 0; }
+  #accomodations .left-col {
+    padding-left: 15px;
+    padding-right: 5px; }
+  #accomodations .right-col {
+    min-width: 60%;
+    height: 75vh;
+    background-size: cover;
+    padding: 0;
+    border-radius: 5px; }
+  #accomodations .carousel #img1 {
+    background: url("../images/Clever-Fox-Pool-Table.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #accomodations .carousel #img2 {
+    background: url("../images/red-fox-clever-cafe.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #accomodations .carousel #img3 {
+    background: url("../images/red-fox-hotel-hyderabad-cyber-kiosk.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #accomodations .carousel #img4 {
+    background: url("../images/red-fox-conference-room.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #accomodations .carousel #img5 {
+    background: url("../images/Gym.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #accomodations .item h2 {
+    margin: 0;
+    text-align: left;
+    color: #eff;
+    border-radius: 0; }
+  #accomodations .item .info-box {
+    padding-top: 60vh; }
+
+#maps {
+  padding-top: 12vh;
+  width: 100%;
+  position: relative; }
+  #maps .content {
+    padding-bottom: 5vh; }
+    #maps .content h2 {
+      color: #f00;
+      text-transform: uppercase;
+      text-align: left;
+      background-image: linear-gradient(to right, rgba(255, 228, 225, 0.5), rgba(255, 228, 225, 0));
+      border-radius: 5px;
+      padding-left: 15px; }
+  #maps .cnt {
+    margin: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 3px #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px 0 5px 0;
+    background-color: #eff; }
+  #maps .holder {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 228, 225, 0.5);
+    margin: 0; }
+  #maps .left-col {
+    padding-left: 15px;
+    padding-right: 5px; }
+  #maps .right-col {
+    min-width: 60%;
+    height: 75vh;
+    background-size: cover;
+    padding: 0;
+    border-radius: 5px; }
+  #maps .item h2 {
+    margin: 0;
+    text-align: left;
+    color: #eff;
+    border-radius: 0; }
+  #maps .item .info-box {
     padding-top: 60vh; }
