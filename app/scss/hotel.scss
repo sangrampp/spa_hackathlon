@@ -1,25 +1,99 @@
+@mixin carousel-settings()
+{
+	min-width: 100%;	
+	height: 75vh;
+	background-size: cover;
+	border-radius: 5px;
+}
 #hotel{
 	padding-top: 12vh;
 	width: 100%;	
-	height: 100vh;
+	// height: 100vh;
 	position: relative;
-}
 
-.content{	
-	padding-bottom: 5vh;
-	h2{
-		color: $theme-bg-color;
-		text-transform: uppercase;
-		text-align: center;
+	.content{	
+		padding-bottom: 5vh;
+		h2{
+			color: $theme-bg-color;
+			text-transform: uppercase;
+			text-align: left;
+			background-image: linear-gradient(to right, $lin-grad-start, $lin-grad-end);
+			border-radius: 5px;
+			padding-left: 15px;
+		}
+	}
+
+	.cnt{
+		margin: 15px 15px 15px 15px;
+		box-shadow: 1px 1px 3px $box-shadow-color;	
+		font-family: "Roboto", sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		border-radius: 5px 0 5px 0;
+		background-color: $light-bg-color;
+	}
+
+	.holder{
+		// min-height: 50vh;
+		border-radius: 5px;
+		border: 2px solid $lin-grad-start;
+		margin: 0;
+	}
+
+	.left-col{
+		// border-right: 1px solid $lin-grad-start;
+		// min-height: 50vh;
+		padding-left: 15px;
+    	padding-right: 5px;
+	}
+
+	.right-col{
+		// background: url('../images/Fox-Den.jpg');
+		min-width: 60%;	
+		height: 75vh;
+		background-size: cover;
+		padding: 0;
+		// padding-right: 15px;
+		border-radius: 5px;
+	}
+
+	.carousel {	
+
+		#img1{
+			background: url('../images/Clever-Fox-Pool-Table.jpg');
+			@include carousel-settings();
+		}
+
+		#img2{
+			background: url('../images/red-fox-clever-cafe.jpg');
+			@include carousel-settings();
+		}
+
+		#img3{
+			background: url('../images/red-fox-hotel-hyderabad-cyber-kiosk.jpg');
+			@include carousel-settings();
+		}
+
+		#img4{
+			background: url('../images/red-fox-conference-room.jpg');
+			@include carousel-settings();
+		}
+
+		#img5{
+			background: url('../images/Gym.jpg');
+			@include carousel-settings();
+		}
+	}
+
+	.item h2{
+		margin: 0;
+		text-align: left;
+		color: $light-bg-color;
+		border-radius: 0;
+	}
+
+	.item .info-box{
+		padding-top: 60vh;
 	}
 }
 
-.cnt{
-	margin: 15px 15px 15px 15px;
-	box-shadow: 1px 1px 3px $box-shadow-color;	
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	font-size: 1.2em;
-	border-radius: 5px 0 5px 0;
-	background-color: $light-bg-color;
-}
