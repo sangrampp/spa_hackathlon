@@ -176,25 +176,25 @@
     padding: 0;
     border-radius: 5px; }
   #accomodations .carousel #img1 {
-    background: url("../images/Clever-Fox-Pool-Table.jpg");
+    background: url("../images/Standard-Room-red-fox-(2).JPG");
     min-width: 100%;
     height: 75vh;
     background-size: cover;
     border-radius: 5px; }
   #accomodations .carousel #img2 {
-    background: url("../images/red-fox-clever-cafe.jpg");
+    background: url("../images/Standard-Room_w.jpg");
     min-width: 100%;
     height: 75vh;
     background-size: cover;
     border-radius: 5px; }
   #accomodations .carousel #img3 {
-    background: url("../images/red-fox-hotel-hyderabad-cyber-kiosk.jpg");
+    background: url("../images/Superior-Room.jpg");
     min-width: 100%;
     height: 75vh;
     background-size: cover;
     border-radius: 5px; }
   #accomodations .carousel #img4 {
-    background: url("../images/red-fox-conference-room.jpg");
+    background: url("../images/Superior-Room-(1).jpg");
     min-width: 100%;
     height: 75vh;
     background-size: cover;
@@ -253,4 +253,100 @@
     color: #eff;
     border-radius: 0; }
   #maps .item .info-box {
+    padding-top: 60vh; }
+
+#reservations {
+  padding-top: 12vh;
+  width: 100%;
+  position: relative; }
+  #reservations .content {
+    padding-bottom: 5vh; }
+    #reservations .content h2 {
+      color: #f00;
+      text-transform: uppercase;
+      text-align: left;
+      background-image: linear-gradient(to right, rgba(255, 228, 225, 0.5), rgba(255, 228, 225, 0));
+      border-radius: 5px;
+      padding-left: 15px; }
+  #reservations .cnt {
+    margin: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 3px #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px 0 5px 0;
+    background-color: #eff; }
+  #reservations .holder {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 228, 225, 0.5);
+    margin: 0; }
+  #reservations .left-col {
+    padding-left: 15px;
+    padding-right: 5px; }
+  #reservations .right-col {
+    min-width: 60%;
+    height: 75vh;
+    background-size: cover;
+    padding: 0;
+    border-radius: 5px; }
+  #reservations .item h2 {
+    margin: 0;
+    text-align: left;
+    color: #eff;
+    border-radius: 0; }
+  #reservations .item .info-box {
+    padding-top: 60vh; }
+
+#contactus {
+  padding-top: 12vh;
+  width: 100%;
+  position: relative; }
+  #contactus .content {
+    padding-bottom: 5vh; }
+    #contactus .content h2 {
+      color: #f00;
+      text-transform: uppercase;
+      text-align: left;
+      background-image: linear-gradient(to right, rgba(255, 228, 225, 0.5), rgba(255, 228, 225, 0));
+      border-radius: 5px;
+      padding-left: 15px; }
+  #contactus .cnt {
+    margin: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 3px #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px 0 5px 0;
+    background-color: #eff; }
+  #contactus .carousel #img1 {
+    background: url("../images/main-view.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #contactus .carousel #img2 {
+    background: url("../images/RedFox-Hotel-0-Hitech-City-Hyderabad.jpg");
+    min-width: 100%;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 5px; }
+  #contactus .holder {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 228, 225, 0.5);
+    margin: 0; }
+  #contactus .left-col {
+    padding-left: 15px;
+    padding-right: 5px; }
+  #contactus .right-col {
+    min-width: 60%;
+    height: 75vh;
+    background-size: cover;
+    padding: 0;
+    border-radius: 5px; }
+  #contactus .item h2 {
+    margin: 0;
+    text-align: left;
+    color: #eff;
+    border-radius: 0; }
+  #contactus .item .info-box {
     padding-top: 60vh; }

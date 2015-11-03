@@ -5,7 +5,7 @@
 	background-size: cover;
 	border-radius: 5px;
 }
-#accomodations{
+#contactus{
 	padding-top: 12vh;
 	width: 100%;	
 	// height: 100vh;
@@ -33,6 +33,20 @@
 		background-color: $light-bg-color;
 	}
 
+	.carousel {	
+
+		#img1{
+			background: url('../images/main-view.jpg');
+			@include carousel-settings();
+		}
+
+		#img2{
+			background: url('../images/RedFox-Hotel-0-Hitech-City-Hyderabad.jpg');
+			@include carousel-settings();
+		}
+
+	}
+
 	.holder{
 		// min-height: 50vh;
 		border-radius: 5px;
@@ -57,33 +71,7 @@
 		border-radius: 5px;
 	}
 
-	.carousel {	
-
-		#img1{
-			background: url('../images/Standard-Room-red-fox-(2).JPG');
-			@include carousel-settings();
-		}
-
-		#img2{
-			background: url('../images/Standard-Room_w.jpg');
-			@include carousel-settings();
-		}
-
-		#img3{
-			background: url('../images/Superior-Room.jpg');
-			@include carousel-settings();
-		}
-
-		#img4{
-			background: url('../images/Superior-Room-(1).jpg');
-			@include carousel-settings();
-		}
-
-		#img5{
-			background: url('../images/Gym.jpg');
-			@include carousel-settings();
-		}
-	}
+	
 
 	.item h2{
 		margin: 0;
